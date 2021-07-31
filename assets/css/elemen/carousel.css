@@ -1,0 +1,43 @@
+.carousel {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img.icon {
+    position: absolute;
+    height: 80%;
+    bottom: 0%;
+    right: 17%;
+}
+
+h1.indikatorBanyak {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    font-family: 'Lora', serif;
+}
+
+h1.item-carousel-ket {
+    position: absolute;
+    bottom: 20%;
+    left: 17%;
+    max-height: 20%;
+    font-family: 'Lora', serif;
+}
+
+@media screen and (max-width: 680px) {
+    .carousel {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+    
+    h1.indikatorBanyak, h1.item-carousel-ket {
+        font-size: 1.5rem;
+    }
+}

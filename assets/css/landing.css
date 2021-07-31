@@ -1,0 +1,77 @@
+.jumbotron-fluid{
+    background-color: #0F1923;
+    color: white;
+    height: 400px;
+}
+
+body{
+    background-color: #ECE8E1;
+}
+
+.jumbotron-fluid h1{
+    color: #FF4655;
+}
+
+.btn{
+    width: 80px;
+    margin-left: 10px;
+}
+
+.input-id{
+    background-color: white;
+    width: 600px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.input-nominal{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.input-voucher{
+    margin-top: 100px;
+}
+.no1{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.diamond{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.buy{
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+img{
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 80px;
+}
+
+.ubah a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.input-profile{
+    height: 500px;
+}
+

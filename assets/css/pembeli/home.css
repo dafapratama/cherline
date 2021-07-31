@@ -1,0 +1,101 @@
+.jumbotron-fluid{
+    background-color: #0F1923;
+    color: white;
+    height: 250px;
+}
+
+body{
+    background-color: #ECE8E1;
+}
+
+.jumbotron-fluid h3{
+    color: #FF4655;
+}
+
+.jumbotron-fluid h4{
+    color: #EDAD43;
+}
+.jumbotron-fluid h6{
+    color: #5F6673;
+}
+
+/* untuk card */
+.card:hover
+{
+  transform: scale(1.1);
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 25px 10px 10px 15px;
+}
+
+/* Remove extra left and right margins, due to padding */
+/*.row 
+{
+  margin-left: 17%;
+  margin-right: 15%;
+}
+*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title
+{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: RED;
+}
+
+.nama
+{
+
+  text-align: center;
+  text-transform: none;
+  padding-top: 10px;
+  font-size: 15px;
+  color: red;
+}
+
+.nama a:hover
+{
+  text-decoration: none;
+  color: red;
+}
+
+.topup{
+  height: 700px;
+  
+}
+
+.footer{
+  background-color: #0F1923;
+  margin: 0;
+  color: white;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.alasan{
+  background-color: #0F1923;
+  color: white;
+  width: 200px;
+  height: 300px;
+}
+
+.jett-bg{
+  position: absolute;
+  width: 312px;
+  height: 312px;
+  left: 70%;
+  right: 20%;
+  top: 10%;
+  transform: translateX(80%);
+}
+
+.beli{
+  margin-top: 50px;
+}

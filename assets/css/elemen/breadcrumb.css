@@ -1,0 +1,36 @@
+ul.breadcrumb-custom {
+    list-style: none;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb-custom li {
+    display: inline;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+ul.breadcrumb-custom li.active {
+    font-weight: normal;
+    color: black;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb-custom li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb-custom li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb-custom li a:hover {
+    color: black;
+    text-decoration: none;
+}

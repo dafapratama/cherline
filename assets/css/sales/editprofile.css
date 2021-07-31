@@ -1,0 +1,33 @@
+.btn{
+    width: 80px;
+    margin-left: 10px;
+}
+
+img{
+    border: 2px solid black;
+    background-color: white;
+}
+
+.input-profile{
+    height: 500px;
+}
+
+.aplod{
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px 2px #acacac;
+    width: 400px;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.aplod h5{
+    margin-top: 10px;
+}
+
+.display{
+    display: none;
+}

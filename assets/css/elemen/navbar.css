@@ -1,0 +1,136 @@
+/*#################### Defaults ########################*/
+nav {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+
+/*########## Nav bar #############*/
+
+nav {
+    width : 100%;
+    margin: 0;
+    background-color: #DEB887;
+}
+
+nav ul {
+    background-color: #DEB887;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 22px 14px 22px 14px;
+    color: #38260E !important;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.link-active {
+    font-weight: normal !important;
+}
+
+ul.topnav li a:hover {
+    color: #fff;
+}
+
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+
+.btn-logout {
+    background-color: #A66C20;
+    color: white !important;
+    padding: 19px 14px 19px 14px;
+}
+
+.btn-logout:hover {
+    background-color: #b57f38;
+}
+
+ul.topnav li p {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Sahitya',serif;
+    color: #994C34;
+    font-size: 25px;
+}
+
+ul.topnav li.brand-container {
+    padding-top: 20.33px;
+    margin-bottom: 3px;
+}
+
+
+/*########## Mobile ###############*/
+
+@media screen and (max-width: 680px)  {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+        margin-top: 11px;
+    }
+    
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    
+    ul.topnav.responsive li.brand-container p {
+        margin-top: 20.33px;
+        margin-bottom: 19px;
+    }
+    
+    .btn-logout {
+        margin-left: 10px !important;
+        height: 30px;
+        font-size: 18px;
+        padding: 3px 8px 3px 8px;
+        margin-bottom: 5px;
+        border-radius: 8px !important;
+    }
+    
+    ul.topnav li a {
+        padding: 11px 14px 11px 14px;
+    }
+}
+
+/*#################### Akhir Navbar ########################*/
+
+
+
+
+
+

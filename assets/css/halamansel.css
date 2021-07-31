@@ -1,0 +1,16 @@
+/*CSS untuk seluruh halaman*/
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif !important;
+    background: rgba(255,228,196,0.35) !important;
+}
+
+.btn-primer {
+	background-color: #A66C20;
+	color: white !important;
+}
+
+.btn-primer:hover {
+    background-color: #b57f38;
+}

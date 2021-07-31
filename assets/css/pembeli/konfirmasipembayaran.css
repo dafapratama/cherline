@@ -1,0 +1,50 @@
+body{
+    background: rgba(255,228,196,0.35);
+}
+
+.box{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #acacac;
+    margin-top: 30px;
+}
+
+.box2{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #acacac;
+    margin-top: 30px;
+}
+
+nav{
+    margin-bottom: 100px;
+}
+
+.acc{
+    width: 200px;
+    margin-top: 250px;
+    background-color: black;
+}
+
+.display{
+    display: none;
+}
+
+.jumbotron-fluid{
+    background-color: #0F1923;
+    color: white;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}

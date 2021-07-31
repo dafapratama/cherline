@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+}
+
+.container-custom {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.row {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+
+.left-side {
+    background-color: #CB9C5F;
+    text-align: center;
+    position: relative;
+}
+
+.btn-login {
+    background-color: #CB9C5F;
+}
+
+.btn-login:hover {
+    background-color: #DBAA69;
+}
+
+.left-side-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+h1 {
+    margin-bottom: 56px;
+    font-size: 36px;
+    font-family: 'Sahitya',serif;
+    color: #541F0F;
+    /*font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;*/
+}
+
+.right-side {
+    position: relative;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    width: 65%;
+}
+
+h3 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+input {
+    background-color: rgba(0,0,0,0) !important;
+    border: 1px solid rgb(200,200,200) !important;
+    height: 44px !important;
+}
+
+button {
+    height: 44px;
+}
+
+small {
+    color: red;
+}
